@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(rgba(15,48,87,.65),rgba(15,48,97,.65)),url(../assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.text-faded {
+    color: lighten($primary, 25%);
+}
+
+.site-heading {
+    color: $tertiary;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: $headings-font-family;
+
+    .site-heading-upper {
+        display: block;
+        color: $tertiary !important;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .site-heading-lower {
+        font-size: 5rem;
+        font-weight: 100;
+        line-height: 4rem;
+    }
+}
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section-heading {
+    text-transform: uppercase;
+
+    .section-heading-upper {
+        display: block;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+    .section-heading-lower {
+        display: block;
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
+
+.bg-faded {
+    background-color: lighten($tertiary, 25%);
+}
+
+.clim-list {
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    color: $tertiary;
+}
+
+.footer-logo {
+    margin-top: 15px;
+}
+
+/* Contact Form Code */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  color: $secondary;
+  padding: 12px;
+  border: 1px solid $secondary;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=text]:focus, textarea:focus {
+  border-color: $secondary;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem $primary;
+}
+
+input[type=submit] {
+  background-color: $secondary;
+  color: $primary;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: $secondary;
+}

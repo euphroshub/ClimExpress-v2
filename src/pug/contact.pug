@@ -1,0 +1,68 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Climatisation Express - Contact
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+    include includes/header
+
+    include includes/navbar
+
+    <section class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/remote.jpg" alt="Salon">
+            <div class="about-heading-content">
+                <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Utilisez ce formulaire pour toute demande d'information.</span>
+                        <span class="section-heading-lower">Contactez nous!</span>
+                    </h2>
+
+                    <div class="contact">
+                        <form action="https://formspree.io/mrgypnkj" method="POST">
+
+                        <label>Votre nom complet</label>
+                        <input type="text" name="name" placeholder="Nom...">
+
+                        <label>Votre courriel</label>
+                        <input type="text" name="_replyto" placeholder="Courriel...">
+                        <label>Comment peut-on vous aider ?</label>
+                        <select class="custom-select" multiple>
+                            <option class ="form-options" value="1">Entretien</option>
+                            <option class ="form-options" value="2">Réparation</option>
+                            <option class ="form-options" value="3">Nouvelle installation</option>
+                            <option class ="form-options" value="4">Soumission</option>
+                            <option class ="form-options" value="5">Information</option>
+                        </select>
+                        <label>Votre message</label>
+                        <textarea id="message" name="message" placeholder="Écrivez votre message ici..." style="height:200px"></textarea>
+
+
+                        <button class="btn btn-primary btn-med" type="submit">Envoie</button>
+                        </form>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    include includes/footer
+
+    include includes/scripts

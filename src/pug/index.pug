@@ -1,0 +1,51 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Climatisation Express - Accueil
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+        include includes/header
+
+        include includes/navbar
+
+        section.page-section.clearfix
+            .container
+                .intro
+                    img.intro-img.img-fluid.mb-3.mb-lg-0.rounded(src='assets/img/tech.jpg', alt='Technicien Climatisation express')
+                    .intro-text.left-0.text-center.bg-faded.p-5.rounded
+                        h2.section-heading.mb-4
+                            span.section-heading-upper Climatisation Express
+                            span.section-heading-lower Nos services
+                        p.mb-3
+                            | Nous commercialisons et installons tout système de réfrigération, de climatisation, de chauffage, et de ventilation. Vous pouvez aussi nous contacter pour l’installation de thermopompe basse température.<br><br>
+                            | Nos services incluent également le diagnostic et la réparation de matériel de toutes marques (Gree, Zephyr, Canair...). Nous proposons notre savoir-faire dans les secteurs résidentiel et commercial dans la région de la Mauricie : Trois-Rivières, Shawinigan...
+                        .intro-button.mx-auto
+                            a.btn.btn-primary.btn-xl(href='contact.html') Contactez nous!
+
+        section.page-section.cta
+            .container
+                .row
+                    .col-xl-9.mx-auto
+                        .cta-inner.bg-faded.text-center.rounded
+                            h2.section-heading.mb-4
+                                span.section-heading-upper Professionnalisme
+                                span.section-heading-lower et minutie
+                            p.mb-0
+                                | Réactifs, nous assurons l’installation ou la réparation de vos équipements dans les délais impartis. Grâce à notre équipement de diagnostic, nous pouvons identifier la source de vos problèmes de chauffage et de climatisation et les résoudre rapidement.<br><br>
+                                | Nous veillons à réaliser les opérations avec minutie et professionnalisme. Vous pouvez aussi nous demander conseil sur le choix du système le plus adapté à vos besoins et à votre bâtiment.
+
+        include includes/footer
+
+        include includes/scripts
